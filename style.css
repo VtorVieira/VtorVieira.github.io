@@ -7,3 +7,18 @@ body{
 .name{
     font-family: cursive;
 }
+.circle-image { 
+    display: inline block; 
+    overflow: hidden; 
+    width: 33%; 
+    background: 33%; 
+    height: 0; 
+    position: relative; 
+} 
+.circle-image img { 
+  width: 100%; 
+  height: 100%; 
+  position: absolute; 
+  radius: 50%; 
+  object-fit : cover ; 
+}
